@@ -8,11 +8,13 @@ const ContentGrid = ({data}) => {
         <Card
           id={show.id}
           name={show.name}
+          isOnBroadway={show.isOnBroadway}
+          isPlay={show.isPlay}
+          venue=""
         />
       ))}
     </div>
   );
-
 }
 
 export default ContentGrid;
