@@ -66,8 +66,7 @@ function App() {
     <Sidebar/>
     <ContentGrid
      data={mockData}
-    >
-    </ContentGrid>
+    />
     </div>
   );
 }

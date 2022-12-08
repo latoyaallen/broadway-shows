@@ -1,10 +1,16 @@
 import React from 'react';
+import Card from '../Card';
 
 const ContentGrid = ({data}) => {
   return (
-  <div>
-    Content
-  </div>
+    <div>
+      {data.map(show => (
+        <Card
+          id={show.id}
+          name={show.name}
+        />
+      ))}
+    </div>
   );
 
 }
