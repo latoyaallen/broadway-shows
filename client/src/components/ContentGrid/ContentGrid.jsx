@@ -10,7 +10,7 @@ const ContentGrid = ({data}) => {
           name={show.name}
           isOnBroadway={show.isOnBroadway}
           isPlay={show.isPlay}
-          venue=""
+          venue={show.venue}
         />
       ))}
     </div>

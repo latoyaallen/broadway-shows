@@ -3,9 +3,9 @@ import React from 'react';
 const Card = ({id, name, isOnBroadway, isPlay, venue}) => {
   return (
     <div key={id}>
-      <p>
-        <b>{name}</b>
-      </p>
+        <h1>{name}</h1>
+        <p>{isPlay ? ' is a play ' : ' is a musical '}{isOnBroadway ? ' on Broadway' : ' off Broadway'} </p>
+        <p>Playing at {venue}</p>
     </div>
   );
 }
